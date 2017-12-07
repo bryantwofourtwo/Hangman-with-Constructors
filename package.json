@@ -1,0 +1,22 @@
+{
+  "name": "hangmanwithconstructors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryantwofourtwo/Hangman-with-Constructors.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryantwofourtwo/Hangman-with-Constructors/issues"
+  },
+  "homepage": "https://github.com/bryantwofourtwo/Hangman-with-Constructors#readme",
+  "dependencies": {
+    "inquirer": "^4.0.1"
+  }
+}
