@@ -66,7 +66,6 @@ function restartGame() {
 selectRandomWord();
 
 // Original Display
-console.log("");
 console.log("***");
 console.log("---------------------------------");
 console.log("HANGMAN!");
@@ -97,7 +96,7 @@ var guessLetters = function() {
                     showPlayer.updatedDisplay(letter);
                     console.log("Letters guessed: " + checkLetter.lettersGuessed);
                     console.log("Guesses remaining: " + remainingGuesses);
-                    console.log("-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
+                    console.log("----------------------------------");
                     console.log("");
                     guessLetters();
                 } else {
@@ -116,7 +115,7 @@ var guessLetters = function() {
                         } else {
                             console.log("Letters guessed: " + checkLetter.lettersGuessed);
                             console.log("Remaining guesses: " + remainingGuesses);
-                            console.log("-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
+                            console.log("--------------------------");
                             console.log("***");
                             guessLetters();
                         }
@@ -126,7 +125,7 @@ var guessLetters = function() {
                             console.log("Letters guessed: " + checkLetter.lettersGuessed);
                             remainingGuesses--;
                             console.log("Remaining ruesses: " + remainingGuesses);
-                            console.log("-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
+                            console.log("--------------------------");
                             console.log("***");
                             guessLetters();
                         }
