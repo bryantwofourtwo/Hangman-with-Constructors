@@ -1,0 +1,1 @@
+exports.possibleWords = ['coder', 'server', 'developer', 'hacker', 'telnet', 'request', 'response', 'post', 'markup', 'script', 'cloud', 'network', 'rackspace', 'hosting', 'uptime', 'throughput', 'parse', 'troll', 'surveillance', 'panopticon', 'breach', 'javascript', 'node', 'mysql', 'express', 'angular', 'fraud', 'goatse'];
