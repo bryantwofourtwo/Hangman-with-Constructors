@@ -11,7 +11,7 @@ var showPlayer = [];
 var checkLetter = [];
 var wordsPlayed = [];
 
-// Select a random word 
+// Select a random word constructor function 
 function selectRandomWord() {
     var x = Math.floor(Math.random() * 26)
     currentWord = words.possibleWords[x];
